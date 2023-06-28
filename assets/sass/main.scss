@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  background-color: #17a2b8;
+
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.press-any-key {
+  font-size: 4rem;
+  padding: 1rem 2rem;
+  color: #17a2b8;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1rem solid #fff;
+  width: 20rem;
+  height: 20rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & > .which-main {
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
