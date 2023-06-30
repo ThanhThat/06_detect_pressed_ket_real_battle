@@ -23,6 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .press-any-key {
